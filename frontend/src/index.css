@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(to right, #38b2ac, #3b82f6);
+    height: 100%;
+}  
+
+/* Create a thin scrollbar track */
+::-webkit-scrollbar-track {
+    background: #3B83F6;
+  }
+  
+  /* Create a scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #565869;
+    border-radius: 5px;
+  }
+  
+  /* Increase the width of the scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }  
